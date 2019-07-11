@@ -7,7 +7,7 @@ import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 
 class Main extends React.Component {
   render() {
-    
+     
 
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
 
@@ -27,6 +27,8 @@ class Main extends React.Component {
 
 
           </p>
+
+          
           {close}
         </article>
 
