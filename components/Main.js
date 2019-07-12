@@ -16,7 +16,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">mixes</h2>
-          <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
+          
           
           
           
@@ -27,6 +27,14 @@ class Main extends React.Component {
 
 
           </p>
+
+          <blockquote class="embedly-card"><h4><a href="https://www.mixcloud.com/Lan3yDubs/sounds-like-lan3y-vol-1/">Sounds Like Lan3y Vol 1</a></h4><p>UK Garage / Bass / Grime Club style... Upfront bangers and classic riddims. 42 tunes mixed fast and hard. Make sure you follow and share... hit me up if you want the D/L link Peace Lan3y</p></blockquote>
+          <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          
+        
+        
+        <blockquote class="embedly-card"><h4><a href="https://www.mixcloud.com/Lan3yDubs/todd-edwards-mixed-by-dj-laney/">Todd Edwards Mixed By Dj Laney</a></h4><p>Listen to Todd Edwards Mixed by DJ Laney by Lan3yDubs for free. Follow Lan3yDubs to never miss another show.</p></blockquote>
+          <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
           
           {close}
@@ -47,7 +55,10 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>Laney has been involved in the rave scene since buying his first vinyl at South London’s Wax City Records at the age of 12. 
+               “raver” at heart Laney draws from his vast knowledge and love for the music as he selects forgotten gems to play against upfront bangers. 
+
+Vinyl and digital DJ with dubs and edits so no set is the same but guaranteed to bring the vibes and get the place rocking.</p>
           {close}
         </article>
 
