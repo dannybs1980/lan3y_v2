@@ -15,12 +15,9 @@ class Main extends React.Component {
       <div id="main" style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          
+          
           <h2 className="major">mixes</h2>
-
-
-
-
-
           <p>Check out my latest mixes below. Remember to give them a thumbs up!</p>
 
           <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FLan3yDubs%2Ftodd-edwards-mixed-by-dj-laney%2F" frameborder="0" ></iframe>
