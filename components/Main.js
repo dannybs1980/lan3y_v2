@@ -15,8 +15,8 @@ class Main extends React.Component {
       <div id="main" style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
-          
-          
+
+
           <h2 className="major">mixes</h2>
           <p>Check out my latest mixes below. Remember to give them a thumbs up!</p>
 
@@ -36,10 +36,17 @@ class Main extends React.Component {
           <span className="image main"><img src="/static/images/pic04.jpg" alt="" /></span>
           <p>
 
+
+
+
+
             photos will live here
 
 
-            .</p>
+            </p>
+
+        
+
           {close}
         </article>
 
@@ -57,6 +64,8 @@ Vinyl and digital DJ with dubs and edits so no set is the same but guaranteed to
           <h2 className="major">Contact</h2>
 
           <p>Feel free to contact me with your shouts or tunes!!</p>
+
+
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
