@@ -15,7 +15,9 @@ const Header = (props) => (
                 <p><a href="https://unknownradio.uk/">UnknownRadio</a></p>
                 </p>
             </div>
+        
         </div>
+        
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('intro') }}>Mixes</a></li>
@@ -23,6 +25,8 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('about') }}>About</a></li>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('contact') }}>Contact</a></li>
             </ul>
+
+     
         </nav>
     </header>
 )
