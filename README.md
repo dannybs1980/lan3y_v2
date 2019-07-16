@@ -1,4 +1,4 @@
-Basic React site
+Basic now.js site
 
 Dbs designs
 
