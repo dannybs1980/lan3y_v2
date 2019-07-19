@@ -18,8 +18,6 @@ class Main extends React.Component {
       </div>
     );
 
-  
-
     return (
       <div
         id="main"
@@ -32,7 +30,7 @@ class Main extends React.Component {
                 display: "none"
               }
         }
-//* this is were the mixes section is 
+        //* this is were the mixes section is
       >
         <article
           id="intro"
@@ -45,6 +43,15 @@ class Main extends React.Component {
         >
           <h2 className="major"> mixes </h2>{" "}
           <p> Check out my latest mixes below. </p>
+          <p>
+            {" "}
+            If not you can always listen to my weekly radio show live every
+            saturday 3pm-5pm.
+            <h3>warming your saturdays up in style!</h3>
+            <p>
+              <a href="https://unknownradio.uk/">UnknownRadio</a>
+            </p>
+          </p>
           <iframe
             width="100%"
             height="120"
@@ -62,8 +69,6 @@ class Main extends React.Component {
             {" "}
           </iframe>
           {close}{" "}
-
-
         </article>
 
         <article
@@ -84,7 +89,6 @@ class Main extends React.Component {
             {" "}
             <img src="/static/images/pic04.jpg" alt="" />{" "}
           </span>
-          <p>photos will live here</p>
           {close}{" "}
         </article>
 
@@ -98,21 +102,20 @@ class Main extends React.Component {
           }}
         >
           <h2 className="major"> About </h2>{" "}
-
-         <p>Laney has been involved in the rave scene since buying his first
-            vinyl at South London’ s Wax City Records at the age of 12.  “ raver”
+          <p>
+            Laney has been involved in the rave scene since buying his first
+            vinyl at South London’ s Wax City Records at the age of 12. “ raver”
             at heart Laney draws from his vast knowledge and love for the music
             as he selects forgotten gems to play against upfront bangers. Vinyl
             and digital DJ with dubs and edits so no set is the same but
-            guaranteed to bring the vibes and get the place rocking.</p>
+            guaranteed to bring the vibes and get the place rocking.
+          </p>
           <span className="image main">
             {" "}
-            
             <img src="/static/images/pic03.jpg" alt="" />{" "}
           </span>{" "}
           {close}{" "}
-        </article> 
-
+        </article>
 
         <article
           id="contact"
@@ -176,9 +179,7 @@ class Main extends React.Component {
             </li>{" "}
             <li>
               {" "}
-              <a href="#">
-                <FontAwesomeIcon icon={faGithub} />{" "}
-              </a>{" "}
+              
             </li>{" "}
           </ul>{" "}
           {close}{" "}
@@ -197,4 +198,3 @@ Main.propTypes = {
 };
 
 export default Main;
-
