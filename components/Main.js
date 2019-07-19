@@ -32,8 +32,7 @@ class Main extends React.Component {
                 display: "none"
               }
         }
-
-        // ======= this is the mix section 
+//* this is were the mixes section is 
       >
         <article
           id="intro"
@@ -63,6 +62,7 @@ class Main extends React.Component {
             {" "}
           </iframe>
           {close}{" "}
+
 
         </article>
 
