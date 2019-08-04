@@ -18,10 +18,11 @@ const Header = props => (
             <a href='https://unknownradio.uk/'>UnknownRadio</a>
           </p>
         </p>
-        <div className='socialf'>
+        <div className='socials'>
           <a href='https://lan3y.co.uk/'>Twitter    </a>
           <a href='https://www.instagram.com/dj_lan3y/'>instagram   </a>
           <a href='https://www.mixcloud.com/Lan3yDubs/'>mixcloud    </a>
+          <a href='https://www.mixcloud.com/Lan3yDubs/'>facebook    </a>
           
         </div>
       </div>
