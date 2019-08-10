@@ -6,14 +6,14 @@ const Header = props => (
   <header id='header' style={props.timeout ? { display: "none" } : {}}>
     <div className='logo'>
       {/*<span className="icon fa-diamond"></span>*/}
-      <FontAwesomeIcon icon={faGem} transform='grow-18' />
+      <FontAwesomeIcon icon={faGem} transform='grow--5' />
     </div>
     <div className='content'>
       <div className='inner'>
         <h1>Lan3y</h1>
         <p>
-          Catch DJ Lan3y Every Saturday On UnknownRadio 3pm Till 5pm Playing The
-          Best In UKG And All Things Bass!
+          Catch DJ Lan3y Every Saturday On UnknownRadio Playing The
+          Best In UK Garage And All Things Bass!
           <p>
             <a href='https://unknownradio.uk/'>UnknownRadio</a>
           </p>
@@ -22,7 +22,7 @@ const Header = props => (
           <a href='https://lan3y.co.uk/'>Twitter    </a>
           <a href='https://www.instagram.com/dj_lan3y/'>instagram   </a>
           <a href='https://www.mixcloud.com/Lan3yDubs/'>mixcloud    </a>
-          <a href='https://www.mixcloud.com/Lan3yDubs/'>facebook    </a>
+          <a href='https://www.facebook.com/tommy.djlaney'>facebook    </a>
           
         </div>
       </div>
