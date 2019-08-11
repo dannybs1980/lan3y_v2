@@ -89,6 +89,10 @@ class Main extends React.Component {
             {" "}
             <img src='/static/images/pic04.jpg' alt='' />{" "}
           </span>
+          <span className='image main'>
+            {" "}
+            <img src='/static/images/pic05.jpg' alt='' />{" "}
+          </span>
           {close}{" "}
         </article>
 
@@ -104,13 +108,15 @@ class Main extends React.Component {
           <h2 className='major'> About </h2>{" "}
           <p>
             Laney has been involved in the rave scene since buying his first
-            vinyl record at South London’ s Wax City Records at the age of 12.
+            vinyl record at South London’ s Wax City Records at the age of
+            12.
           </p>
           <p>
-            “raver” at heart Laney draws from his vast knowledge and love for
-            the music as he selects forgotten gems to play against upfront
-            bangers. Vinyl and digital DJ with dubs and edits so no set is the
-            same but guaranteed to bring the vibes and get the place rocking.
+            “raver” at heart Laney draws from his vast knowledge and love
+            for the music as he selects forgotten gems to play against
+            upfront bangers. Vinyl and digital DJ with dubs and edits so no
+            set is the same but guaranteed to bring the vibes and get the
+            place rocking.
           </p>
           <span className='image main'>
             {" "}
