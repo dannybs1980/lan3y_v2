@@ -182,7 +182,7 @@ class Main extends React.Component {
             <li>
               {" "}
               <a href='https://www.instagram.com/dj_lan3y/'>
-                <FontAwesomeIcon icon={faInstagram} />{" "}
+              <FontAwesomeIcon icon={faInstagram} />{" "}
               </a>{" "}
             </li>{" "}
             <li> </li>{" "}

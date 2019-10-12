@@ -12,10 +12,9 @@ const Header = props => (
       <div className='inner'>
         <h1>Lan3y</h1>
         <p>
-          Catch DJ Lan3y Every Saturday On UnknownRadio Playing The
-          Best In UK Garage And All Things Bass!
+       Londons finest house and garage DJ
           <p>
-            <a href='https://unknownradio.uk/'>Click Here to listen to UnknownRadio</a>
+      
           </p>
         </p>
         <div className='socials'>
